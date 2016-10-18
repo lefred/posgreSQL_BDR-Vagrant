@@ -1,0 +1,7 @@
+forge "http://forge.puppetlabs.com"
+
+mod "lefred/postgresqlbdr",
+  :git =>  "https://github.com/lefred/puppet-lefred-postgresqldbr",
+  :ref => 'master'
+
+

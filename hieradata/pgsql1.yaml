@@ -1,0 +1,7 @@
+---
+classes:
+   - postgresqlbdr::server
+
+
+postgresqlbdr::server::seed:	'pgsql1'
+postgresqlbdr::server::db:	'fred'
