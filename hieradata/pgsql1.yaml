@@ -1,6 +1,7 @@
 ---
 classes:
    - postgresqlbdr::server
+   - xinet
 
 
 postgresqlbdr::server::seed:	'pgsql1'

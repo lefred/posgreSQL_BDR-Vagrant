@@ -8,4 +8,3 @@ node pgsql3 {
 }
 node pgsql4 {
 }
-

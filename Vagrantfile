@@ -74,6 +74,7 @@ Vagrant.configure("2") do |config|
                 pgsql4_vb.customize ["modifyvm", :id, "--cpuexecutioncap", "50", "--memory", "256", "--ioapic", "on"]
         end
         pgsql4_config.vm.network :private_network, ip: "192.168.91.5"
+        pgsql4_config.vm.network :forwarded_port, guest: 80, host: 8080
         pgsql4_config.vm.provision :puppet do |pgsql4_puppet|
                 pgsql4_puppet.environment_path     = "puppet"
                 pgsql4_puppet.environment          = "development"

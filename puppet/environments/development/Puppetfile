@@ -1,4 +1,8 @@
-forge "http://forge.puppetlabs.com"
+forge "https://forgeapi.puppetlabs.com"
+
+mod "puppetlabs/puppetlabs-haproxy",
+  :git => "https://github.com/puppetlabs/puppetlabs-haproxy",
+  :ref => 'master'
 
 mod "lefred/postgresqlbdr",
   :git =>  "https://github.com/lefred/puppet-lefred-postgresqldbr",
